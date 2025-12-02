@@ -42,8 +42,7 @@ printf 'echo Olá Mundo\nls -1\nexit\n' | python3 app.py
 - Parsing é simples (usa `shlex.split`) — não há expansão de variáveis (`$VAR`) nem globbing (curinga `*`).
 - Não há histórico de comandos nem edição de linha (não usa readline).
 - Tratamento de sinais é básico (Ctrl-C apenas interrompe o comando atual).
-
-Se quiser, eu posso adicionar suporte a pipes/redirecionamento e mais built-ins (`pwd`, `history`).
+- 
 
 ## Casos de Teste (reprodutíveis)
 
